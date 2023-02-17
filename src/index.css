@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidea:hover {
+  background-color: whitesmoke;
+  color: rgb(100, 99, 95);
+}
