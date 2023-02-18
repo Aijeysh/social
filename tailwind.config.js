@@ -7,7 +7,10 @@ module.exports = {
     screens: {
       'smm': { 'max': '500px' },
       'lmm': { 'max': '1000px' },
-      'gmm': { 'max': '600px'}
+      'gmm': { 'max': '600px' },
+      'lsm': '1000px',
+      'ssm':'500px',
+      'mmm': {'max': '700px'}
     },
     extend: {},
   },

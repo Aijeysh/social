@@ -2,7 +2,7 @@ import React from 'react'
 
 const Post = () => {
   return (
-    <div className='flex flex-col  text-slate-200  w-[512px]'>
+    <div className='flex flex-col  text-slate-200  w-[38vw] lmm:w-[50vw] smm:[80vw] mmm:w-[70vw]'>
       <div className='flex flex-col border border-slate-400 overflow-hidden rounded-xl'>
       <div className='flex postprofile bg-[#94A3B8]'>
         <img src={process.env.PUBLIC_URL + "notification-bell.png"} alt='logo' className='h-12 w-12 self-center flex ' />

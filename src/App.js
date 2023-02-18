@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import SideNav from './components/SideNav';
 import TopNav from './components/TopNav';
 import Post from './features/Post';
+import LoggedDashboard from './pages/LoggedDashboard';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<LoggedDashboard />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="/post" element={<Post />} />

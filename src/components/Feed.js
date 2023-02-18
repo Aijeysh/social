@@ -5,7 +5,7 @@ import Edit from '../features/Edit'
 
 const Feed = () => {
   return (
-    <div >
+    <div className='flex ml-[25vw] smm:ml-[10vw] smm:p-6 flex-col ' >
       <div className='flex mt-5 '>
         <Story />
       </div>
@@ -23,7 +23,8 @@ const Feed = () => {
           <Post />
         </div>
       </div>
-    </div>
+      </div>
+
   )
 }
 
